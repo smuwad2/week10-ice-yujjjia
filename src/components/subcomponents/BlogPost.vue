@@ -22,5 +22,6 @@ export default {
             <h5 class="card-title">{{ subject }}</h5>
             <p class="card-text">{{ entry }}</p>
         </div>
+        <slot></slot>
     </div>
 </template>
